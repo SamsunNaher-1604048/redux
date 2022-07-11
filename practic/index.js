@@ -3,7 +3,8 @@
 const {createStore}=require('redux');
 
 const Initalstate={
-    count:0
+    count:0,
+    user:['nishi']
 }
 
 //action
@@ -33,6 +34,9 @@ const incermentbyvalur=(value)=>{
     }
 
 }
+
+
+
 
 
 //reducer
